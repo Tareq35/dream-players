@@ -31,6 +31,7 @@ function addPlayers(element) {
 
     const button = element.parentNode.children[0];
     button.setAttribute('disabled', true)
-    button.style.backgroundColor="gray"
-    
+    button.style.backgroundColor = "gray";
+    button.style.color = "black";
+
 }
