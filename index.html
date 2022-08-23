@@ -21,82 +21,86 @@
             <h1 class="text-4xl text-sky-500 pb-2 font-bold">Select Your <span class="text-orange-500">Dream Five</span>
                 Players
             </h1>
-            <p>Select any five World Class player that you have always dreamed of. And sign them to your team. <br> Make
-                your own team with these fantastic star players </p>
+            <p>
+                Select any five World Class player that you have always dreamed of. And sign them to your team. <br>
+                Make
+                your own team with these fantastic star players
+            </p>
         </div>
         <img src="./images/messi-cover-pic.png" alt="">
     </header>
-    <main class="w-9/12 mx-auto my-10">
-        <section>
-            <div class="grid grid-cols-2 gap-4">
+    <main class="w-10/12 mx-auto my-10">
+        <section class="flex gap-7">
+            <div class="w-9/12">
+
                 <!-- =============all players=============  -->
-                <div class="grid grid-cols-3 col-span-5 gap-4">
+                <div class="grid grid-cols-3 gap-7">
                     <!--============= player-1 ============== -->
-                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                    <div class="bg-black rounded-xl">
                         <div class="card w-full shadow-xl">
                             <figure class=" ">
                                 <img src="./images/players/messi.png" alt="player" class="w-full h-50 rounded" />
                             </figure>
                             <div class="card-body items-center text-center text-white">
-                                <h2 class="card-title font-bold">Lionel Messi</h2>
+                                <h2 id="messi" class="card-title font-bold">Lionel Messi</h2>
                                 <p><span class="font-medium">50 Goals</span> - <span class="font-medium">120
                                         Assists</span></p>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary px-10">SELECT</button>
+                                    <button class="btn btn-primary px-10" onclick="addPlayers(this)">SELECT</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--============= player-2 ============== -->
-                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                    <div class="bg-black rounded-xl">
                         <div class="card w-full shadow-xl">
                             <figure class=" ">
                                 <img src="./images/players/neymar.png" alt="player" class="w-full h-50 rounded" />
                             </figure>
                             <div class="card-body items-center text-center text-white">
-                                <h2 class="card-title font-bold">Neymar Jr</h2>
+                                <h2 id="neymar" class="card-title font-bold">Neymar Jr</h2>
                                 <p><span class="font-medium">30 Goals</span> - <span class="font-medium">50
                                         Assists</span></p>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary px-10">SELECT</button>
+                                    <button class="btn btn-primary px-10" onclick="addPlayers(this)">SELECT</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--============= player-3 ============== -->
-                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                    <div class="bg-black rounded-xl">
                         <div class="card w-full shadow-xl">
                             <figure class=" ">
                                 <img src="./images/players/mbappe.png" alt="player" class="w-full h-50 rounded" />
                             </figure>
                             <div class="card-body items-center text-center text-white">
-                                <h2 class="card-title font-bold">Kylian Mbappé</h2>
+                                <h2  id="mbappe" class="card-title font-bold">Kylian Mbappé</h2>
                                 <p><span class="font-medium">40 Goals</span> - <span class="font-medium">30
                                         Assists</span></p>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary px-10">SELECT</button>
+                                    <button class="btn btn-primary px-10" onclick="addPlayers(this)">SELECT</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--============= player-4 ============== -->
-                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                    <div class="bg-black rounded-xl">
                         <div class="card w-full shadow-xl">
                             <figure class=" ">
                                 <img src="./images/players/victor.png" alt="player" class="w-full h-50 rounded" />
                             </figure>
                             <div class="card-body items-center text-center text-white">
-                                <h2 class="card-title font-bold">Vítor Machado</h2>
+                                <h2 id="victor" class="card-title font-bold">Víctor Machado</h2>
                                 <p><span class="font-medium">10 Goals</span> - <span class="font-medium">8
                                         Assists</span></p>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary px-10">SELECT</button>
+                                    <button class="btn btn-primary px-10" onclick="addPlayers(this)">SELECT</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--============= player-5 ============== -->
-                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                    <div class="bg-black rounded-xl">
                         <div class="card w-full shadow-xl">
                             <figure class=" ">
                                 <img src="./images/players/ramos.png" alt="player" class="w-full h-50 rounded" />
@@ -106,13 +110,13 @@
                                 <p><span class="font-medium">10 Goals</span> - <span class="font-medium">5
                                         Assists</span></p>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary px-10">SELECT</button>
+                                    <button class="btn btn-primary px-10" onclick="addPlayers(this)">SELECT</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!--============= player-6 ============== -->
-                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                    <div class="bg-black rounded-xl">
                         <div class="card w-full shadow-xl">
                             <figure class=" ">
                                 <img src="./images/players/sanchez.png" alt="player" class="w-full h-50 rounded" />
@@ -122,16 +126,58 @@
                                 <p><span class="font-medium">8 Goals</span> - <span class="font-medium">12
                                         Assists</span></p>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary px-10">SELECT</button>
+                                    <button class="btn btn-primary px-10" onclick="addPlayers(this)" >
+                                        SELECT
+
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ... -->
                 </div>
-                <!-- ... -->
-                <div class="col-end-7">
-                    <h2>Selected Players <span id="number-of-player">0</span></h2>
+
+
+            </div>
+
+            <!--==================Selected Player===================-->
+
+            <div class="w-3/12">
+                <div class="bg-black rounded-lg">
+                    <h2 class="text-white text-xl text-center">Selected Players
+                        <span id="number-of-player" class=" text-blue-500">0</span>
+                    </h2>
+                    <div class="overflow-x-auto">
+                        <table class="table table-zebra w-full">
+                          <!-- head -->
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>Player Name</th>
+                            </tr>
+                          </thead>
+                          <tbody id="added-player">
+                            <!-- <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                                <td>Quality Control Specialist</td>
+                              </tr> -->
+                          </tbody>
+                        </table>
+                      </div>
+                </div>
+                <div class="bg-black mt-7 rounded-lg h-96 mt-12 text-white text-center">
+                    
+                    <h2 class="text-white text-xl my-3 ">Budget</h2>
+
+                    <p>per player : <input class="text-black" type="number" name="" id="per-player-amount"></p> <br>
+                    <button class="btn btn-primary my-3" onclick="calculate()">CALCULATE</button>
+
+                    <p>Player Expenses $<span id="player-expense">0</span></p>
+                    <p class="my-4">Manager : <input class="text-black" type="number" name="" id="manager-cost"></p>
+                    <p>Coach : <input id="coach-cost" class="text-black" type="number"></p>
+                    <button class="btn btn-primary my-3" onclick="calculateTotal()">CALCULATE Total</button>
+                    <p class="mt-4">Total $<span id="total-cost">0</span></p>
+
                 </div>
             </div>
         </section>
@@ -145,7 +191,10 @@
         </div>
     </footer>
 
-
+    <script src="./js/utilities.js"></script>
+    <script src="./js/add-players.js"></script>
+    <script src="./js/calculate.js"></script>
+    <script src="./js/calculate-total.js"></script>
 </body>
 
 </html>
