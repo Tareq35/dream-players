@@ -25,6 +25,12 @@ function displayPlayer() {
 
 function addPlayers(element) {
     const playerName = element.parentNode.parentNode.children[0].innerText;
+
     players.push(playerName);
     displayPlayer()
+
+    const button = element.parentNode.children[0];
+    button.setAttribute('disabled', true)
+    button.style.backgroundColor="gray"
+    
 }
