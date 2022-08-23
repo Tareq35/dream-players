@@ -1,29 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select Your Dream Five</title>
+    <!-- ================tailwind cdn =================-->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!--=================== daisyui ===================-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!--==================== favicon ==================-->
     <link rel="shortcut icon" href="./images/psg-logo.png" type="image/x-icon">
 </head>
-<body>
-    <header class="flex text-center text-center h-96 bg-black">       
-         <img src="./images/mbappe-cover-pic.png" alt="">
-         <div class="text-white  m-auto">
-            <h1 class="text-4xl text-sky-500 pb-2">Select Your <span class="text-orange-500">Dream</span> Five</h1>
-            <p>Select any five World Class player that you have always dreamed of. And sign them to your team. <br> Make your own team with these fantastic star players </p>
-         </div>
-         <img src="./images/messi-cover-pic.png" alt="">
-    </header>
-    <main>
 
+<body class=" bg-zinc-800">
+    <header class="flex text-center text-center h-96 bg-black">
+        <img src="./images/mbappe-cover-pic.png" alt="">
+        <div class="text-white  m-auto">
+            <h1 class="text-4xl text-sky-500 pb-2 font-bold">Select Your <span class="text-orange-500">Dream</span> Five
+            </h1>
+            <p>Select any five World Class player that you have always dreamed of. And sign them to your team. <br> Make
+                your own team with these fantastic star players </p>
+        </div>
+        <img src="./images/messi-cover-pic.png" alt="">
+    </header>
+    <main class="w-9/12 mx-auto my-10">
+        <section>
+            <div class="grid grid-cols-2 gap-4">
+                <!-- =============all players=============  -->
+                <div class="grid grid-cols-3 col-span-5 gap-4">
+                    <!--============= player-1 ============== -->
+                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                        <div class="card w-full shadow-xl">
+                            <figure class=" ">
+                                <img src="./images/players/messi.png" alt="player" class="w-full h-50 rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center text-white">
+                                <h2 class="card-title font-bold">Lionel Messi</h2>
+                                <p><span class="font-medium">50 Goals</span> - <span class="font-medium">120
+                                        Assists</span></p>
+                                <div class="card-actions">
+                                    <button class="btn btn-primary px-10">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--============= player-2 ============== -->
+                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                        <div class="card w-full shadow-xl">
+                            <figure class=" ">
+                                <img src="./images/players/neymar.png" alt="player" class="w-full h-50 rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center text-white">
+                                <h2 class="card-title font-bold">Neymar Jr</h2>
+                                <p><span class="font-medium">30 Goals</span> - <span class="font-medium">50
+                                        Assists</span></p>
+                                <div class="card-actions">
+                                    <button class="btn btn-primary px-10">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--============= player-3 ============== -->
+                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                        <div class="card w-full shadow-xl">
+                            <figure class=" ">
+                                <img src="./images/players/mbappe.png" alt="player" class="w-full h-50 rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center text-white">
+                                <h2 class="card-title font-bold">Kylian Mbappé</h2>
+                                <p><span class="font-medium">40 Goals</span> - <span class="font-medium">30
+                                        Assists</span></p>
+                                <div class="card-actions">
+                                    <button class="btn btn-primary px-10">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--============= player-4 ============== -->
+                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                        <div class="card w-full shadow-xl">
+                            <figure class=" ">
+                                <img src="./images/players/victor.png" alt="player" class="w-full h-50 rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center text-white">
+                                <h2 class="card-title font-bold">Vítor Machado</h2>
+                                <p><span class="font-medium">10 Goals</span> - <span class="font-medium">8
+                                        Assists</span></p>
+                                <div class="card-actions">
+                                    <button class="btn btn-primary px-10">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--============= player-5 ============== -->
+                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                        <div class="card w-full shadow-xl">
+                            <figure class=" ">
+                                <img src="./images/players/ramos.png" alt="player" class="w-full h-50 rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center text-white">
+                                <h2 class="card-title font-bold">Sergio Ramos</h2>
+                                <p><span class="font-medium">10 Goals</span> - <span class="font-medium">5
+                                        Assists</span></p>
+                                <div class="card-actions">
+                                    <button class="btn btn-primary px-10">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--============= player-6 ============== -->
+                    <div class="w-3/4 bg-zinc-900 rounded-xl">
+                        <div class="card w-full shadow-xl">
+                            <figure class=" ">
+                                <img src="./images/players/sanchez.png" alt="player" class="w-full h-50 rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center text-white">
+                                <h2 class="card-title font-bold">Renato Sanches</h2>
+                                <p><span class="font-medium">8 Goals</span> - <span class="font-medium">12
+                                        Assists</span></p>
+                                <div class="card-actions">
+                                    <button class="btn btn-primary px-10">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                </div>
+                <!-- ... -->
+                <div class="col-end-7">
+                    <h2>Selected Players <span id="number-of-player">0</span></h2>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="text-center text-white p-5 bg-dark">
+            <h1 class="fw-bold">EduCom</h1>
+            <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>Sultanate of Oman</p>
+            <p>Privacy Ploicy | Terms of use</p>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/social-icon/facebook.png" alt=""></a>
+            <a class="px-4" href="https://www.linkedin.com/" target="_blank"><img
+                    src="./images/social-icon/linkedin.png" alt=""></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./images/social-icon/twitter.png" alt=""></a>
+        </div>
     </footer>
 
 
 </body>
+
 </html>
